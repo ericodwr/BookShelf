@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="cards">
+      <div class="header">
+        <h1>Bookshelf Apps</h1>
+      </div>
+
+      <main class="contents">
+        <div class="inputBooks">
+          <section>
+            <h4 class="inputTitle">Tambahkan Buku Baru</h4>
+            <form id="inputBook">
+              <div class="inputBookTitle">
+                <label for="inputBookTitle">Judul</label><br />
+                <input id="inputBookTitle" type="text" required />
+              </div>
+              <div class="inputBookAuthor">
+                <label for="inputBookAuthor">Penulis</label><br />
+                <input id="inputBookAuthor" type="text" required />
+              </div>
+              <div class="inputBookYear">
+                <label for="inputBookYear">Tahun</label><br />
+                <input id="inputBookYear" type="number" required />
+              </div>
+              <div class="checkForm">
+                <input id="inputBookIsComplete" type="checkbox" />
+                <label for="inputBookIsComplete">Selesai dibaca</label>
+              </div>
+              <div class="inputBtn">
+                <button class="inputButton" type="submit">
+                  <p>Masukkan Buku</p>
+                </button>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <div class="searchBooks">
+          <section>
+            <div class="uncompletedBook">
+              <h4 class="unfinished">Belum selesai dibaca</h4>
+              <div id="incompleteBookshelfList"> </div>
+            </div>
+
+            <div class="completedBook">
+              <h4 class="finished">Selesai dibaca</h4>
+              <div id="completeBookshelfList"> </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/dom.js"></script>
+  </body>
+</html>

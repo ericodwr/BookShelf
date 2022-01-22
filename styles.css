@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+.cards {
+  background-color: lightblue;
+  height: auto;
+}
+
+.header {
+  background-color: #a3cdd9;
+  font-size: 2vw;
+  padding: 2vh;
+  letter-spacing: 2px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  align-items: center;
+  height: 89vh;
+}
+
+input {
+  height: 25px;
+  width: 200px;
+  border-style: none;
+  border: 1px solid black;
+	margin-bottom: 1rem;
+}
+
+.inputBooks {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.searchBooks {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.inputTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+#inputBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 5;
+}
+
+.form-check {
+  font-size: 1rem;
+}
+
+.card-container {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  width: 100%;
+}
+
+.card-content {
+  flex: 3;
+}
+
+.card-content span {
+  font-size: 70%;
+}
+.button {
+  flex: 1;
+}
+
+.checkForm {
+  display: flex;
+  flex-direction: column;
+}
+.checkForm label {
+  font-size: 15px;
+}
+.deleteButton {
+  box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+  background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  background-color: #fc8d83;
+  border-radius: 6px;
+  border: 1px solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+  margin: 10px;
+}
+
+.deleteButton:hover {
+  background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  background-color: #e4685d;
+}
+
+.checkButton {
+  box-shadow: inset 0px 1px 0px 0px #3dc21b;
+  background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+  background-color: #44c767;
+  border-radius: 6px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin: 0 10px;
+}
+.checkButton:hover {
+  background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+  background-color: #5cbf2a;
+}
+
+.inputButton {
+  background: linear-gradient(to bottom, #53dde7 5%, #2ab5bf 100%);
+  background-color: #449dc7;
+  border-radius: 6px;
+  border: 1px solid #1e7ed8;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 3px 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #272b66;
+  margin: 0 10px;
+}
+
+.inputButton:hover {
+  background: linear-gradient(to bottom, #87f4fc 5%, #2ab5bf 100%);
+  background-color: #36dfeb;
+}
+
+.undoButton {
+  box-shadow: inset 0px 1px 0px 0px #91b8b3;
+  background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 6px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2b665e;
+}
+.undoButton:hover {
+  background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+  background-color: #6c7c7c;
+}
+
+.searchButton {
+  box-shadow: inset 0px 1px 0px 0px #91b8b3;
+  background: linear-gradient(to bottom, #c9e6de 5%, #6c7c7c 100%);
+  background-color: #768d87;
+  border-radius: 6px;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2b665e;
+}
+
+.uncompletedBook,
+.completedBook {
+  font-size: 1.5rem;
+}
